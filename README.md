@@ -26,6 +26,6 @@ de una inmobiliaria, usando IA (OpenAI), Notion, Slack, Telegram y Gmail.
 El sistema recibe correos de clientes por Gmail, un agente de IA (GPT-4o-mini) 
 interpreta la intención (compra, alquiler o consulta general) y calcula la 
 prioridad del caso. Según la prioridad, el flujo notifica por Slack (para 
-casos que requieren aprobación humana) o responde automáticamente por Gmail 
-(casos de baja prioridad). Un segundo circuito revisa periódicamente las 
-aprobaciones humanas en Notion y responde al cliente por email y Telegram.
+casos que requieren aprobación humana-prioridad Alta y Media) o responde automáticamente por Gmail 
+(casos de prioridad Baja). Un segundo circuito revisa periódicamente las 
+aprobaciones humanas en Notion y responde al cliente por email y envía mensaje a Telegram de la inmobiliaria.
